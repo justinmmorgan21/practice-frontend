@@ -1,0 +1,16 @@
+export function StudentsNew() {
+  return (
+    <div id="new-student">
+      <h3>New Student</h3>
+      <form>
+        <label htmlFor="name">Name: </label>
+        <input type="text" id="name-input" name="name"></input><br />
+        <label htmlFor="dob">Date of Birth: </label>
+        <input type="text" id="dob-input" name="dob"></input><br />
+        <label htmlFor="email">Email: </label>
+        <input type="text" id="email-input" name="email"></input><br />
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  );
+}
