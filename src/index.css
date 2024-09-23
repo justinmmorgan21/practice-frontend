@@ -40,7 +40,7 @@ footer {
   text-align: center;
 }
 
-input,
+#new-student input,
 textarea,
 url {
   font-size: 1.4em;
